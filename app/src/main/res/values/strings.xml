@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Styles</string>
+    <string name="example">Example string</string>
+    <string-array name="example_array">
+        <item>Example array</item>
+        <item>Example array</item>
+        <item>Example array</item>
+    </string-array>
 </resources>
