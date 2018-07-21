@@ -8,37 +8,31 @@
     tools:context="com.windowsexperience.styles.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/example" />
 
     <Button
-        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/example" />
 
     <CheckBox
-        android:id="@+id/checkBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/example" />
 
     <RadioButton
-        android:id="@+id/radioButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/example" />
 
     <Spinner
-        android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/example_array" />
 
     <Switch
-        android:id="@+id/switch1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/example" />
