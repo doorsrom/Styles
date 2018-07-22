@@ -10,7 +10,5 @@
                   </shape>
             </inset>
       </item>
-      <item>
-            <bitmap android:src="@drawable/ok" />
-      </item>
+      <item android:drawable="@drawable/ok" />
 </layer-list>

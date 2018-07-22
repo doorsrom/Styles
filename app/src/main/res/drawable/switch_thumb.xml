@@ -5,8 +5,6 @@
       <shape android:shape="oval">
             <size android:height="14dp" android:width="14dp"/>
             <solid android:color="@color/textColor" />
-            <padding
-                android:right="-2dp"
-                android:left="-14dp" />
+            <padding android:left="-14dp" />
       </shape>
 </inset>
