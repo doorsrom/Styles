@@ -4,6 +4,6 @@
     android:insetBottom="6dp">
     <shape android:shape="oval">
         <size android:height="20dp" android:width="20dp"/>
-        <stroke android:width="4px" android:color="@color/frameColor" />
+        <stroke android:width="4px" android:color="@color/textColor" />
     </shape>
 </inset>

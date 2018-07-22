@@ -17,6 +17,11 @@
         android:layout_height="wrap_content"
         android:text="@string/example" />
 
+    <com.windowsexperience.styles.LinkButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/example"/>
+
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
