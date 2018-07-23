@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- attr -->
+    <declare-styleable name="LinkButton">
+        <attr name="linkButtonStyle" format="reference"/>
+    </declare-styleable>
+    <attr name="innerColor" format="color"/>
+    <attr name="frameColor" format="color"/>
+    <attr name="elementColor" format="color"/>
+
+    <!-- colors -->
+    <color name="colorAccent">#0078D7</color>
+    <color name="WindowsTheme.black">#000000</color>
+    <color name="WindowsTheme.white">#ffffff</color>
+
+    <color name="WindowsTheme.colorPrimaryDark">#171717</color>
+    <color name="WindowsTheme.windowBackgroundDark">@color/WindowsTheme.black</color>
+    <color name="WindowsTheme.textColorDark">@color/WindowsTheme.white</color>
+    <color name="WindowsTheme.textColorSecondaryDark">#80ffffff</color>
+    <color name="WindowsTheme.innerColorDark">#2B2B2B</color>
+    <color name="WindowsTheme.frameColorDark">#767676</color>
+
+    <color name="WindowsTheme.colorPrimaryLight">#F2F2F2</color>
+    <color name="WindowsTheme.windowBackgroundLight">@color/WindowsTheme.white</color>
+    <color name="WindowsTheme.textColorLight">@color/WindowsTheme.black</color>
+    <color name="WindowsTheme.textColorSecondaryLight">#80000000</color>
+    <color name="WindowsTheme.innerColorLight">#F2F2F2</color>
+    <color name="WindowsTheme.frameColorLight">#CCCCCC</color>
+
+    <!-- styles -->
+    <style name="WindowsTheme.Light" parent="WindowsTheme.UNUSABLE">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/WindowsTheme.colorPrimaryLight</item>
+        <item name="android:windowBackground">@color/WindowsTheme.windowBackgroundLight</item>
+        <item name="android:textColor">@color/WindowsTheme.textColorLight</item>
+        <item name="android:textColorSecondary">@color/WindowsTheme.textColorSecondaryLight</item>
+        <item name="innerColor">@color/WindowsTheme.innerColorLight</item>
+        <item name="frameColor">@color/WindowsTheme.frameColorLight</item>
+        <item name="elementColor">@color/WindowsTheme.frameColorLight</item>
+    </style>
+
+    <style name="WindowsTheme.Dark" parent="WindowsTheme.UNUSABLE">
+        <item name="colorPrimary">@color/WindowsTheme.colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/WindowsTheme.windowBackgroundDark</item>
+        <item name="android:textColor">@color/WindowsTheme.textColorDark</item>
+        <item name="android:textColorSecondary">@color/WindowsTheme.textColorSecondaryDark</item>
+        <item name="innerColor">@color/WindowsTheme.innerColorDark</item>
+        <item name="frameColor">@color/WindowsTheme.frameColorDark</item>
+        <item name="elementColor">@color/WindowsTheme.innerColorDark</item>
+    </style>
+
+    <style name="WindowsTheme.UNUSABLE" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/WindowsTheme.ActionBar</item>
+        <item name="colorPrimaryDark">?attr/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">?android:attr/textColor</item>
+        <item name="buttonStyle">@style/WindowsTheme.Button</item>
+        <item name="linkButtonStyle">@style/WindowsTheme.LinkButton</item>
+        <item name="checkboxStyle">@style/WindowsTheme.CheckBox</item>
+        <item name="radioButtonStyle">@style/WindowsTheme.RadioButton</item>
+        <item name="spinnerStyle">@style/WindowsTheme.Spinner</item>
+        <item name="android:switchStyle">@style/WindowsTheme.Switch</item>
+    </style>
+
+    <style name="WindowsTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="titleTextStyle">@style/WindowsTheme.ActionBarTitle</item>
+        <item name="elevation">0.1dp</item>
+    </style>
+
+    <style name="WindowsTheme.ActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">?android:attr/textColor</item>
+    </style>
+
+    <style name="WindowsTheme.Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">?android:attr/textColor</item>
+        <item name="android:fontFamily">sans-serif light</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="WindowsTheme.LinkButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:fontFamily">sans-serif light</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="WindowsTheme.CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox</item>
+        <item name="android:textColor">?android:attr/textColor</item>
+    </style>
+
+    <style name="WindowsTheme.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radiobutton</item>
+        <item name="android:textColor">?android:attr/textColor</item>
+    </style>
+
+    <style name="WindowsTheme.Spinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner</item>
+        <item name="android:popupBackground">@drawable/spinner_dropdown</item>
+        <item name="android:popupElevation">0.1dp</item>
+    </style>
+
+    <style name="WindowsTheme.Switch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:switchMinWidth">64dp</item>
+        <item name="android:track">@drawable/switch_track</item>
+        <item name="android:thumb">@drawable/switch_thumb</item>
+        <item name="android:textColor">?android:attr/textColor</item>
+        <item name="android:textOn">""</item>
+        <item name="android:textOff">""</item>
+    </style>
+
+</resources>
