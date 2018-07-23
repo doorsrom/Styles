@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- colors -->
+    <color name="WindowsTheme.yellow_gold">#FFB900</color>
+    <color name="WindowsTheme.gold">#FF8C00</color>
+    <color name="WindowsTheme.orange_bright">#FF8C00</color>
+    <color name="WindowsTheme.orange_dark">#CA5010</color>
+    <color name="WindowsTheme.rust">#DA3B01</color>
+    <color name="WindowsTheme.pale_rust">#EF6950</color>
+    <color name="WindowsTheme.brick_red">#D13438</color>
+    <color name="WindowsTheme.mod_red">#FF4343</color>
+
+    <color name="WindowsTheme.pale_red">#E74856</color>
+    <color name="WindowsTheme.red">#E81123</color>
+    <color name="WindowsTheme.rose_bright">#EA005E</color>
+    <color name="WindowsTheme.rose">#C30052</color>
+    <color name="WindowsTheme.plum_light">#E3008C</color>
+    <color name="WindowsTheme.plum">#BF0077</color>
+    <color name="WindowsTheme.orchid_light">#C239B3</color>
+    <color name="WindowsTheme.orchid">#9A0089</color>
+
+    <color name="WindowsTheme.default_blue">#0078D7</color>
+    <color name="WindowsTheme.navy_blue">#0063B1</color>
+    <color name="WindowsTheme.purple_shadow">#8E8CD8</color>
+    <color name="WindowsTheme.purple_shadow_dark">#6B69D6</color>
+    <color name="WindowsTheme.iris_pastel">#8764B8</color>
+    <color name="WindowsTheme.iris_spring">#744DA9</color>
+    <color name="WindowsTheme.violet_red_light">#B146C2</color>
+    <color name="WindowsTheme.violet_red">#881798</color>
+
+    <color name="WindowsTheme.cool_blue_bright">#0099BC</color>
+    <color name="WindowsTheme.cool_blue">#2D7D9A</color>
+    <color name="WindowsTheme.seafoam">#00B7C3</color>
+    <color name="WindowsTheme.seafoam_teal">#038387</color>
+    <color name="WindowsTheme.mint_light">#00B294</color>
+    <color name="WindowsTheme.mint_dark">#018574</color>
+    <color name="WindowsTheme.turf_green">#00CC6A</color>
+    <color name="WindowsTheme.sport_green">#10893E</color>
+
+    <color name="WindowsTheme.gray">#7A7574</color>
+    <color name="WindowsTheme.gray_brown">#5D5A58</color>
+    <color name="WindowsTheme.steel_blue">#68768A</color>
+    <color name="WindowsTheme.metal_blue">#515C6B</color>
+    <color name="WindowsTheme.pale_moss">#567C73</color>
+    <color name="WindowsTheme.moss">#486860</color>
+    <color name="WindowsTheme.meadow_green">#498205</color>
+    <color name="WindowsTheme.green">#107C10</color>
+
+    <color name="WindowsTheme.overcast">#767676</color>
+    <color name="WindowsTheme.storm">#4C4A48</color>
+    <color name="WindowsTheme.blue_gray">#69797E</color>
+    <color name="WindowsTheme.gray_dark">#4A5459</color>
+    <color name="WindowsTheme.liddy_green">#647C64</color>
+    <color name="WindowsTheme.sage">#525E54</color>
+    <color name="WindowsTheme.camouflage_desert">#847545</color>
+    <color name="WindowsTheme.camouflage">#7E735F</color>
+
+    <!-- light styles -->
+    <style name="WindowsTheme.Light.yellow_gold" parent="WindowsTheme.Light">
+    <item name="colorAccent">@color/WindowsTheme.yellow_gold</item>
+    </style>
+    <style name="WindowsTheme.Light.gold" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.gold</item>
+    </style>
+    <style name="WindowsTheme.Light.orange_bright" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.orange_bright</item>
+    </style>
+    <style name="WindowsTheme.Light.orange_dark" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.orange_dark</item>
+    </style>
+    <style name="WindowsTheme.Light.rust" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.rust</item>
+    </style>
+    <style name="WindowsTheme.Light.pale_rust" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.pale_rust</item>
+    </style>
+    <style name="WindowsTheme.Light.brick_red" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.brick_red</item>
+    </style>
+    <style name="WindowsTheme.Light.mod_red" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.mod_red</item>
+    </style>
+
+    <style name="WindowsTheme.Light.pale_red" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.pale_red</item>
+    </style>
+    <style name="WindowsTheme.Light.red" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.red</item>
+    </style>
+    <style name="WindowsTheme.Light.rose_bright" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.rose_bright</item>
+    </style>
+    <style name="WindowsTheme.Light.rose" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.rose</item>
+    </style>
+    <style name="WindowsTheme.Light.plum_light" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.plum_light</item>
+    </style>
+    <style name="WindowsTheme.Light.plum" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.plum</item>
+    </style>
+    <style name="WindowsTheme.Light.orchid_light" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.orchid_light</item>
+    </style>
+    <style name="WindowsTheme.Light.orchid" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.orchid</item>
+    </style>
+
+    <style name="WindowsTheme.Light.default_blue" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.default_blue</item>
+    </style>
+    <style name="WindowsTheme.Light.navy_blue" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.navy_blue</item>
+    </style>
+    <style name="WindowsTheme.Light.purple_shadow" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.purple_shadow</item>
+    </style>
+    <style name="WindowsTheme.Light.purple_shadow_dark" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.purple_shadow_dark</item>
+    </style>
+    <style name="WindowsTheme.Light.iris_pastel" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.iris_pastel</item>
+    </style>
+    <style name="WindowsTheme.Light.iris_spring" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.iris_spring</item>
+    </style>
+    <style name="WindowsTheme.Light.violet_red_light" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.violet_red_light</item>
+    </style>
+    <style name="WindowsTheme.Light.violet_red" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.violet_red</item>
+    </style>
+
+    <style name="WindowsTheme.Light.cool_blue_bright" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.cool_blue_bright</item>
+    </style>
+    <style name="WindowsTheme.Light.cool_blue" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.cool_blue</item>
+    </style>
+    <style name="WindowsTheme.Light.seafoam" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.seafoam</item>
+    </style>
+    <style name="WindowsTheme.Light.seafoam_teal" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.seafoam_teal</item>
+    </style>
+    <style name="WindowsTheme.Light.mint_light" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.mint_light</item>
+    </style>
+    <style name="WindowsTheme.Light.mint_dark" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.mint_dark</item>
+    </style>
+    <style name="WindowsTheme.Light.turf_green" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.turf_green</item>
+    </style>
+    <style name="WindowsTheme.Light.sport_green" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.sport_green</item>
+    </style>
+
+    <style name="WindowsTheme.Light.gray" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.gray</item>
+    </style>
+    <style name="WindowsTheme.Light.gray_brown" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.gray_brown</item>
+    </style>
+    <style name="WindowsTheme.Light.steel_blue" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.steel_blue</item>
+    </style>
+    <style name="WindowsTheme.Light.metal_blue" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.metal_blue</item>
+    </style>
+    <style name="WindowsTheme.Light.pale_moss" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.pale_moss</item>
+    </style>
+    <style name="WindowsTheme.Light.moss" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.moss</item>
+    </style>
+    <style name="WindowsTheme.Light.meadow_green" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.meadow_green</item>
+    </style>
+    <style name="WindowsTheme.Light.green" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.green</item>
+    </style>
+
+    <style name="WindowsTheme.Light.overcast" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.overcast</item>
+    </style>
+    <style name="WindowsTheme.Light.storm" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.storm</item>
+    </style>
+    <style name="WindowsTheme.Light.blue_gray" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.blue_gray</item>
+    </style>
+    <style name="WindowsTheme.Light.gray_dark" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.gray_dark</item>
+    </style>
+    <style name="WindowsTheme.Light.liddy_green" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.liddy_green</item>
+    </style>
+    <style name="WindowsTheme.Light.sage" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.sage</item>
+    </style>
+    <style name="WindowsTheme.Light.camouflage_desert" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.camouflage_desert</item>
+    </style>
+    <style name="WindowsTheme.Light.camouflage" parent="WindowsTheme.Light">
+        <item name="colorAccent">@color/WindowsTheme.camouflage</item>
+    </style>
+
+    <!-- dark styles -->
+    <style name="WindowsTheme.Dark.yellow_gold" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.yellow_gold</item>
+    </style>
+    <style name="WindowsTheme.Dark.gold" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.gold</item>
+    </style>
+    <style name="WindowsTheme.Dark.orange_bright" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.orange_bright</item>
+    </style>
+    <style name="WindowsTheme.Dark.orange_dark" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.orange_dark</item>
+    </style>
+    <style name="WindowsTheme.Dark.rust" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.rust</item>
+    </style>
+    <style name="WindowsTheme.Dark.pale_rust" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.pale_rust</item>
+    </style>
+    <style name="WindowsTheme.Dark.brick_red" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.brick_red</item>
+    </style>
+    <style name="WindowsTheme.Dark.mod_red" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.mod_red</item>
+    </style>
+
+    <style name="WindowsTheme.Dark.pale_red" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.pale_red</item>
+    </style>
+    <style name="WindowsTheme.Dark.red" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.red</item>
+    </style>
+    <style name="WindowsTheme.Dark.rose_bright" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.rose_bright</item>
+    </style>
+    <style name="WindowsTheme.Dark.rose" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.rose</item>
+    </style>
+    <style name="WindowsTheme.Dark.plum_light" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.plum_light</item>
+    </style>
+    <style name="WindowsTheme.Dark.plum" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.plum</item>
+    </style>
+    <style name="WindowsTheme.Dark.orchid_light" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.orchid_light</item>
+    </style>
+    <style name="WindowsTheme.Dark.orchid" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.orchid</item>
+    </style>
+
+    <style name="WindowsTheme.Dark.default_blue" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.default_blue</item>
+    </style>
+    <style name="WindowsTheme.Dark.navy_blue" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.navy_blue</item>
+    </style>
+    <style name="WindowsTheme.Dark.purple_shadow" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.purple_shadow</item>
+    </style>
+    <style name="WindowsTheme.Dark.purple_shadow_dark" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.purple_shadow_dark</item>
+    </style>
+    <style name="WindowsTheme.Dark.iris_pastel" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.iris_pastel</item>
+    </style>
+    <style name="WindowsTheme.Dark.iris_spring" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.iris_spring</item>
+    </style>
+    <style name="WindowsTheme.Dark.violet_red_light" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.violet_red_light</item>
+    </style>
+    <style name="WindowsTheme.Dark.violet_red" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.violet_red</item>
+    </style>
+
+    <style name="WindowsTheme.Dark.cool_blue_bright" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.cool_blue_bright</item>
+    </style>
+    <style name="WindowsTheme.Dark.cool_blue" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.cool_blue</item>
+    </style>
+    <style name="WindowsTheme.Dark.seafoam" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.seafoam</item>
+    </style>
+    <style name="WindowsTheme.Dark.seafoam_teal" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.seafoam_teal</item>
+    </style>
+    <style name="WindowsTheme.Dark.mint_light" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.mint_light</item>
+    </style>
+    <style name="WindowsTheme.Dark.mint_dark" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.mint_dark</item>
+    </style>
+    <style name="WindowsTheme.Dark.turf_green" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.turf_green</item>
+    </style>
+    <style name="WindowsTheme.Dark.sport_green" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.sport_green</item>
+    </style>
+
+    <style name="WindowsTheme.Dark.gray" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.gray</item>
+    </style>
+    <style name="WindowsTheme.Dark.gray_brown" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.gray_brown</item>
+    </style>
+    <style name="WindowsTheme.Dark.steel_blue" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.steel_blue</item>
+    </style>
+    <style name="WindowsTheme.Dark.metal_blue" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.metal_blue</item>
+    </style>
+    <style name="WindowsTheme.Dark.pale_moss" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.pale_moss</item>
+    </style>
+    <style name="WindowsTheme.Dark.moss" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.moss</item>
+    </style>
+    <style name="WindowsTheme.Dark.meadow_green" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.meadow_green</item>
+    </style>
+    <style name="WindowsTheme.Dark.green" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.green</item>
+    </style>
+
+    <style name="WindowsTheme.Dark.overcast" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.overcast</item>
+    </style>
+    <style name="WindowsTheme.Dark.storm" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.storm</item>
+    </style>
+    <style name="WindowsTheme.Dark.blue_gray" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.blue_gray</item>
+    </style>
+    <style name="WindowsTheme.Dark.gray_dark" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.gray_dark</item>
+    </style>
+    <style name="WindowsTheme.Dark.liddy_green" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.liddy_green</item>
+    </style>
+    <style name="WindowsTheme.Dark.sage" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.sage</item>
+    </style>
+    <style name="WindowsTheme.Dark.camouflage_desert" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.camouflage_desert</item>
+    </style>
+    <style name="WindowsTheme.Dark.camouflage" parent="WindowsTheme.Dark">
+        <item name="colorAccent">@color/WindowsTheme.camouflage</item>
+    </style>
+
+</resources>

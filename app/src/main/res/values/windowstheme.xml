@@ -9,7 +9,7 @@
     <attr name="elementColor" format="color"/>
 
     <!-- colors -->
-    <color name="colorAccent">#0078D7</color>
+    <color name="WindowsTheme.colorAccent">#0078D7</color>
     <color name="WindowsTheme.black">#000000</color>
     <color name="WindowsTheme.white">#ffffff</color>
 
@@ -52,7 +52,7 @@
     <style name="WindowsTheme.UNUSABLE" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="actionBarStyle">@style/WindowsTheme.ActionBar</item>
         <item name="colorPrimaryDark">?attr/colorPrimary</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/WindowsTheme.colorAccent</item>
         <item name="android:textColorPrimary">?android:attr/textColor</item>
         <item name="buttonStyle">@style/WindowsTheme.Button</item>
         <item name="linkButtonStyle">@style/WindowsTheme.LinkButton</item>
