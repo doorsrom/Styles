@@ -31,8 +31,10 @@
     <style name="WindowsTheme.Light" parent="WindowsTheme.UNUSABLE">
         <item name="android:windowLightStatusBar">true</item>
         <item name="colorPrimary">@color/WindowsTheme.colorPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/WindowsTheme.colorPrimaryLight</item>
         <item name="android:windowBackground">@color/WindowsTheme.windowBackgroundLight</item>
         <item name="android:textColor">@color/WindowsTheme.textColorLight</item>
+        <item name="android:textColorPrimary">@color/WindowsTheme.textColorLight</item>
         <item name="android:textColorSecondary">@color/WindowsTheme.textColorSecondaryLight</item>
         <item name="innerColor">@color/WindowsTheme.innerColorLight</item>
         <item name="frameColor">@color/WindowsTheme.frameColorLight</item>
@@ -40,9 +42,12 @@
     </style>
 
     <style name="WindowsTheme.Dark" parent="WindowsTheme.UNUSABLE">
+        <item name="android:windowLightStatusBar">false</item>
         <item name="colorPrimary">@color/WindowsTheme.colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/WindowsTheme.colorPrimaryDark</item>
         <item name="android:windowBackground">@color/WindowsTheme.windowBackgroundDark</item>
         <item name="android:textColor">@color/WindowsTheme.textColorDark</item>
+        <item name="android:textColorPrimary">@color/WindowsTheme.textColorDark</item>
         <item name="android:textColorSecondary">@color/WindowsTheme.textColorSecondaryDark</item>
         <item name="innerColor">@color/WindowsTheme.innerColorDark</item>
         <item name="frameColor">@color/WindowsTheme.frameColorDark</item>
@@ -51,9 +56,8 @@
 
     <style name="WindowsTheme.UNUSABLE" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="actionBarStyle">@style/WindowsTheme.ActionBar</item>
-        <item name="colorPrimaryDark">?attr/colorPrimary</item>
+        <item name="actionBarTheme">@style/WindowsTheme.ActionBarTheme</item>
         <item name="colorAccent">@color/WindowsTheme.colorAccent</item>
-        <item name="android:textColorPrimary">?android:attr/textColor</item>
         <item name="buttonStyle">@style/WindowsTheme.Button</item>
         <item name="linkButtonStyle">@style/WindowsTheme.LinkButton</item>
         <item name="checkboxStyle">@style/WindowsTheme.CheckBox</item>
@@ -72,6 +76,10 @@
 
     <style name="WindowsTheme.ActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textColor">?android:attr/textColor</item>
+    </style>
+
+    <style name="WindowsTheme.ActionBarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">?android:attr/textColor</item>
     </style>
 
     <style name="WindowsTheme.Button" parent="Widget.AppCompat.Button">
