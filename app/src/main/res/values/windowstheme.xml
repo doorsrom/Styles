@@ -126,8 +126,7 @@
         <item name="android:track">@drawable/switch_track</item>
         <item name="android:thumb">@drawable/switch_thumb</item>
         <item name="android:textColor">?android:attr/textColor</item>
-        <item name="android:textOn">""</item>
-        <item name="android:textOff">""</item>
+        <item name="android:showText">false</item>
     </style>
 
 </resources>
