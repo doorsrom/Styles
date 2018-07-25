@@ -10,4 +10,60 @@
 
     <string name="pref">Settings</string>
     <string name="pref_dark">Dark mode</string>
+    <string name="pref_color">Accent color</string>
+    <string-array name="pref_color_array">
+        <item>yellow_gold</item>
+        <item>gold</item>
+        <item>orange_bright</item>
+        <item>orange_dark</item>
+        <item>rust</item>
+        <item>pale_rust</item>
+        <item>brick_red</item>
+        <item>mod_red</item>
+
+        <item>pale_red</item>
+        <item>red</item>
+        <item>rose_bright</item>
+        <item>rose</item>
+        <item>plum_light</item>
+        <item>plum</item>
+        <item>orchid_light</item>
+        <item>orchid</item>
+
+        <item>default_blue</item>
+        <item>navy_blue</item>
+        <item>purple_shadow</item>
+        <item>purple_shadow_dark</item>
+        <item>iris_pastel</item>
+        <item>iris_spring</item>
+        <item>violet_red_light</item>
+        <item>violet_red</item>
+
+        <item>cool_blue_bright</item>
+        <item>cool_blue</item>
+        <item>seafoam</item>
+        <item>seafoam_teal</item>
+        <item>mint_light</item>
+        <item>mint_dark</item>
+        <item>turf_green</item>
+        <item>sport_green</item>
+
+        <item>gray</item>
+        <item>gray_brown</item>
+        <item>steel_blue</item>
+        <item>metal_blue</item>
+        <item>pale_moss</item>
+        <item>moss</item>
+        <item>meadow_green</item>
+        <item>green</item>
+
+        <item>overcast</item>
+        <item>storm</item>
+        <item>blue_gray</item>
+        <item>gray_dark</item>
+        <item>liddy_green</item>
+        <item>sage</item>
+        <item>camouflage_desert</item>
+        <item>camouflage</item>
+    </string-array>
 </resources>

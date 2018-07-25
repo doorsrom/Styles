@@ -39,6 +39,7 @@
         <item name="innerColor">@color/WindowsTheme.innerColorLight</item>
         <item name="frameColor">@color/WindowsTheme.frameColorLight</item>
         <item name="elementColor">@color/WindowsTheme.frameColorLight</item>
+        <item name="android:alertDialogTheme">@style/WindowsTheme.DialogTheme.Light</item>
     </style>
 
     <style name="WindowsTheme.Dark" parent="WindowsTheme.UNUSABLE">
@@ -52,6 +53,7 @@
         <item name="innerColor">@color/WindowsTheme.innerColorDark</item>
         <item name="frameColor">@color/WindowsTheme.frameColorDark</item>
         <item name="elementColor">@color/WindowsTheme.innerColorDark</item>
+        <item name="android:alertDialogTheme">@style/WindowsTheme.DialogTheme.Dark</item>
     </style>
 
     <style name="WindowsTheme.UNUSABLE" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -80,6 +82,18 @@
 
     <style name="WindowsTheme.ActionBarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
         <item name="colorControlNormal">?android:attr/textColor</item>
+    </style>
+
+    <style name="WindowsTheme.DialogTheme.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/WindowsTheme.colorAccent</item>
+        <item name="android:textColorPrimary">@color/WindowsTheme.textColorLight</item>
+        <item name="android:textColorAlertDialogListItem">@color/WindowsTheme.textColorLight</item>
+        <item name="android:windowBackground">@drawable/spinner_dropdown</item>
+    </style>
+
+    <style name="WindowsTheme.DialogTheme.Dark" parent="WindowsTheme.DialogTheme.Light">
+        <item name="android:textColorPrimary">@color/WindowsTheme.textColorDark</item>
+        <item name="android:textColorAlertDialogListItem">@color/WindowsTheme.textColorDark</item>
     </style>
 
     <style name="WindowsTheme.Button" parent="Widget.AppCompat.Button">
