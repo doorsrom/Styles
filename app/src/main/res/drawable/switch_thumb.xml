@@ -5,7 +5,7 @@
                 android:insetBottom="14dp">
                   <shape android:shape="oval">
                         <size android:height="14dp" android:width="14dp"/>
-                        <solid android:color="@color/WindowsTheme.white"/>
+                        <solid android:color="@color/DoorsTheme.white"/>
                         <padding android:left="-14dp"/>
                   </shape>
             </inset>

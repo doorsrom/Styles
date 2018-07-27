@@ -1,4 +1,4 @@
-package com.windowsexperience.styles;
+package com.doors.styles;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
