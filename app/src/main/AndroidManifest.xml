@@ -4,23 +4,25 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/DoorsTheme.Light"
-        android:fullBackupContent="@xml/backup_descriptor">
-        <activity android:name="com.doors.styles.MainActivity">
+        android:theme="@style/DoorsTheme.Light">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/DoorsTheme.Dark.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
         <activity
-            android:name="com.doors.styles.Preferences"
+            android:name=".Preferences"
             android:label="@string/pref"
-            android:parentActivityName="com.doors.styles.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.doors.styles.MainActivity" />

@@ -28,6 +28,18 @@
     <color name="DoorsTheme.frameColorLight">#CCCCCC</color>
 
     <!-- styles -->
+    <style name="DoorsTheme.Light.NoActionBar" parent="DoorsTheme.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="DoorsTheme.Dark.NoActionBar" parent="DoorsTheme.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
     <style name="DoorsTheme.Light" parent="DoorsTheme.UNUSABLE">
         <item name="android:windowLightStatusBar">true</item>
         <item name="colorPrimary">@color/DoorsTheme.colorPrimaryLight</item>
