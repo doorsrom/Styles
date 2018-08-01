@@ -3,7 +3,7 @@
     <!-- colors -->
     <color name="DoorsTheme.yellow_gold">#FFB900</color>
     <color name="DoorsTheme.gold">#FF8C00</color>
-    <color name="DoorsTheme.orange_bright">#FF8C00</color>
+    <color name="DoorsTheme.orange_bright">#F7630C</color>
     <color name="DoorsTheme.orange_dark">#CA5010</color>
     <color name="DoorsTheme.rust">#DA3B01</color>
     <color name="DoorsTheme.pale_rust">#EF6950</color>

@@ -24,7 +24,7 @@
     <color name="DoorsTheme.windowBackgroundLight">@color/DoorsTheme.white</color>
     <color name="DoorsTheme.textColorLight">@color/DoorsTheme.black</color>
     <color name="DoorsTheme.textColorSecondaryLight">#80000000</color>
-    <color name="DoorsTheme.innerColorLight">#F2F2F2</color>
+    <color name="DoorsTheme.innerColorLight">@color/DoorsTheme.colorPrimaryLight</color>
     <color name="DoorsTheme.frameColorLight">#CCCCCC</color>
 
     <!-- styles -->
@@ -79,7 +79,7 @@
         <item name="spinnerStyle">@style/DoorsTheme.Spinner</item>
         <item name="seekBarStyle">@style/DoorsTheme.SeekBar</item>
         <item name="android:switchStyle">@style/DoorsTheme.Switch</item>
-        <item name="editTextBackground">@drawable/edittext</item>
+        <item name="editTextStyle">@style/DoorsTheme.EditText</item>
         <item name="android:textCursorDrawable">@null</item>
     </style>
 
@@ -153,6 +153,11 @@
         <item name="android:thumb">@drawable/switch_thumb</item>
         <item name="android:textColor">?android:attr/textColor</item>
         <item name="android:showText">false</item>
+    </style>
+
+    <style name="DoorsTheme.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittext</item>
+        <item name="android:textColor">@color/edittext</item>
     </style>
 
 </resources>
