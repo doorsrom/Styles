@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/DoorsTheme.Light">
-        <activity android:name=".SplashActivity"
+        <activity
+            android:name=".SplashActivity"
             android:theme="@style/DoorsTheme.Dark.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +28,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.doors.styles.MainActivity" />
         </activity>
+        <activity
+            android:name=".ThemeChooser"
+            android:label="@string/colors"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.doors.styles.MainActivity" /></activity>
     </application>
 
 </manifest>

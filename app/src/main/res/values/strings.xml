@@ -8,6 +8,14 @@
         <item>Example array</item>
     </string-array>
 
+    <string name="colors_btn">Custom preference screen</string>
+    <string name="colors">Colors</string>
+    <string name="colors_choose_mode">Choose your mode</string>
+    <string name="colors_mode_dark">Dark</string>
+    <string name="colors_mode_light">Light</string>
+    <string name="colors_choose_color">Choose your accent color</string>
+
+    <string name="pref_btn">Android preference screen</string>
     <string name="pref">Settings</string>
     <string name="pref_dark">Dark mode</string>
     <string name="pref_color">Accent color</string>

@@ -160,4 +160,10 @@
         <item name="android:textColor">@color/edittext</item>
     </style>
 
+    <style name="DoorsTheme.ColorSquare" parent="">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
 </resources>
