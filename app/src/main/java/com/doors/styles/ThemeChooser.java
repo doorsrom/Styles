@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -37,7 +38,7 @@ public class ThemeChooser extends AppCompatActivity {
             public void onClick(View v) {
                 prefs.edit().putBoolean("dark_mode", true).apply();
                 startActivity(new Intent(v.getContext(), ThemeChooser.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
-
+                overridePendingTransition(0, 0);
             }
         });
         btnLight.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +46,7 @@ public class ThemeChooser extends AppCompatActivity {
             public void onClick(View v) {
                 prefs.edit().putBoolean("dark_mode", false).apply();
                 startActivity(new Intent(v.getContext(), ThemeChooser.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
+                overridePendingTransition(0, 0);
             }
         });
         squareClick(R.id.yellow_gold, "yellow_gold");
@@ -102,12 +104,18 @@ public class ThemeChooser extends AppCompatActivity {
         squareClick(R.id.camouflage, "camouflage");
     }
 
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(this, MainActivity.class));
+    }
+
     private void squareClick(int id,final String color){
         findViewById(id).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 prefs.edit().putString("color_accent", color).apply();
                 startActivity(new Intent(v.getContext(), ThemeChooser.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
+                overridePendingTransition(0, 0);
             }
         });
     }
