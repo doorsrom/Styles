@@ -6,7 +6,6 @@ import android.support.v7.widget.AppCompatButton;
 import android.util.AttributeSet;
 
 class LinkButton extends AppCompatButton {
-    private String customAttr;
 
     public LinkButton( Context context ) {
         this( context, null );

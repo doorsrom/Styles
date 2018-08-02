@@ -12,7 +12,7 @@ import android.view.MenuItem;
 
 public class Preferences extends AppCompatPreferenceActivity {
 
-    SharedPreferences.OnSharedPreferenceChangeListener spChanged = new
+    private final SharedPreferences.OnSharedPreferenceChangeListener spChanged = new
             SharedPreferences.OnSharedPreferenceChangeListener() {
                 @Override
                 public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,

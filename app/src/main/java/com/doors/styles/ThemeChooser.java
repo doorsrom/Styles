@@ -8,15 +8,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 
 public class ThemeChooser extends AppCompatActivity {
 
-    RadioGroup modeGroup;
-    RadioButton btnDark;
-    RadioButton btnLight;
+    private RadioButton btnDark;
+    private RadioButton btnLight;
 
-    SharedPreferences prefs;
+    private SharedPreferences prefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +24,6 @@ public class ThemeChooser extends AppCompatActivity {
 
         checkPref();
 
-        modeGroup = findViewById(R.id.mode);
         btnDark = findViewById(R.id.dark);
         btnLight = findViewById(R.id.light);
 
@@ -126,7 +123,7 @@ public class ThemeChooser extends AppCompatActivity {
         btnLight = findViewById(R.id.light);
         if (darkMode){
             btnDark.toggle();
-        } else if (!darkMode) {
+        } else {
             btnLight.toggle();
         }
     }
@@ -285,7 +282,7 @@ public class ThemeChooser extends AppCompatActivity {
                     context.setTheme(R.style.DoorsTheme_Dark);
                     break;
             }
-        } else if (!darkMode) {
+        } else {
             switch (colorAccent) {
                 case "yellow_gold":
                     context.setTheme(R.style.DoorsTheme_Light_yellow_gold);

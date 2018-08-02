@@ -29,7 +29,6 @@ public class SplashActivity extends AppCompatActivity {
         Boolean darkMode = preferences.getBoolean("dark_mode", false);
         if (darkMode)
             setTheme(R.style.DoorsTheme_Dark_NoActionBar);
-        else if(!darkMode)
-            setTheme(R.style.DoorsTheme_Light_NoActionBar);
+        else setTheme(R.style.DoorsTheme_Light_NoActionBar);
     }
 }
