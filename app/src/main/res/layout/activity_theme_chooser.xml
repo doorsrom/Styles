@@ -56,242 +56,242 @@
 
             <View
                 android:id="@+id/yellow_gold"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.yellow_gold" />
 
             <View
                 android:id="@+id/pale_red"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.pale_red" />
 
             <View
                 android:id="@+id/default_blue"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.default_blue" />
 
             <View
                 android:id="@+id/cool_blue_bright"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.cool_blue_bright" />
 
             <View
                 android:id="@+id/gray"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.gray" />
 
             <View
                 android:id="@+id/overcast"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.overcast" />
 
             <View
                 android:id="@+id/gold"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.gold" />
 
             <View
                 android:id="@+id/red"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.red" />
 
             <View
                 android:id="@+id/navy_blue"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.navy_blue" />
 
             <View
                 android:id="@+id/cool_blue"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.cool_blue" />
 
             <View
                 android:id="@+id/gray_brown"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.gray_brown" />
 
             <View
                 android:id="@+id/storm"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.storm" />
 
             <View
                 android:id="@+id/orange_bright"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.orange_bright" />
 
             <View
                 android:id="@+id/rose_bright"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.rose_bright" />
 
             <View
                 android:id="@+id/purple_shadow"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.purple_shadow" />
 
             <View
                 android:id="@+id/seafoam"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.seafoam" />
 
             <View
                 android:id="@+id/steel_blue"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.steel_blue" />
 
             <View
                 android:id="@+id/blue_gray"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.blue_gray" />
 
             <View
                 android:id="@+id/orange_dark"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.orange_dark" />
 
             <View
                 android:id="@+id/rose"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.rose" />
 
             <View
                 android:id="@+id/purple_shadow_dark"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.purple_shadow_dark" />
 
             <View
                 android:id="@+id/seafoam_teal"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.seafoam_teal" />
 
             <View
                 android:id="@+id/metal_blue"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.metal_blue" />
 
             <View
                 android:id="@+id/gray_dark"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.gray_dark" />
 
             <View
                 android:id="@+id/rust"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.rust" />
 
             <View
                 android:id="@+id/plum_light"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.plum_light" />
 
             <View
                 android:id="@+id/iris_pastel"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.iris_pastel" />
 
             <View
                 android:id="@+id/mint_light"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.mint_light" />
 
             <View
                 android:id="@+id/pale_moss"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.pale_moss" />
 
             <View
                 android:id="@+id/liddy_green"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.liddy_green" />
 
             <View
                 android:id="@+id/pale_rust"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.pale_rust" />
 
             <View
                 android:id="@+id/plum"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.plum" />
 
             <View
                 android:id="@+id/iris_spring"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.iris_spring" />
 
             <View
                 android:id="@+id/mint_dark"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.mint_dark" />
 
             <View
                 android:id="@+id/moss"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.moss" />
 
             <View
                 android:id="@+id/sage"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.sage" />
 
             <View
                 android:id="@+id/brick_red"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.brick_red" />
 
             <View
                 android:id="@+id/orchid_light"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.orchid_light" />
 
             <View
                 android:id="@+id/violet_red_light"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.violet_red_light" />
 
             <View
                 android:id="@+id/turf_green"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.turf_green" />
 
             <View
                 android:id="@+id/meadow_green"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.meadow_green" />
 
             <View
                 android:id="@+id/camouflage_desert"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.camouflage_desert" />
 
             <View
                 android:id="@+id/mod_red"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.mod_red" />
 
             <View
                 android:id="@+id/orchid"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.orchid" />
 
             <View
                 android:id="@+id/violet_red"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.violet_red" />
 
             <View
                 android:id="@+id/sport_green"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.sport_green" />
 
             <View
                 android:id="@+id/green"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.green" />
 
             <View
                 android:id="@+id/camouflage"
-                style="@style/DoorsTheme.ColorSquare"
+                style="@style/ColorSquare"
                 android:background="@color/DoorsTheme.camouflage" />
 
         </GridLayout>

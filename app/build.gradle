@@ -16,6 +16,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    //### Adds res-doorstheme folder
+    sourceSets {
+        main.res.srcDirs += ['src/main/res-doorstheme']
+    }
+    //###
+
 }
 
 dependencies {
