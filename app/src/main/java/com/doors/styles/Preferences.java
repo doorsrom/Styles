@@ -24,7 +24,7 @@ public class Preferences extends AppCompatPreferenceActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        ThemeChooser.checkTheme(this);
+        DoorsTheme.checkTheme(this);
         super.onCreate(savedInstanceState);
         setupActionBar();
         getFragmentManager().beginTransaction()
