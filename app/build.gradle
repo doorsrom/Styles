@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+
+    //### Adds doorstheme folders
+    sourceSets {
+        main.java.srcDirs += 'src/main/java-doorstheme'
+        main.res.srcDirs += 'src/main/res-doorstheme'
+    }
+    //###
+
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.doors.styles"
@@ -16,13 +24,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    //### Adds res-doorstheme folder
-    sourceSets {
-        main.res.srcDirs += ['src/main/res-doorstheme']
-    }
-    //###
-
 }
 
 dependencies {

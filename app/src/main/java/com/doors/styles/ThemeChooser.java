@@ -1,8 +1,12 @@
 package com.doors.styles;
 
+import android.app.Activity;
+import android.app.ActivityManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -133,6 +137,9 @@ public class ThemeChooser extends AppCompatActivity {
         Boolean darkMode = preferences.getBoolean("dark_mode", false);
         String colorAccent = preferences.getString("color_accent", "default_blue");
         if (darkMode) {
+            Bitmap bm = BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_launcher);
+            ActivityManager.TaskDescription taskDescription = new ActivityManager.TaskDescription(context.getString(R.string.app_name), bm, context.getResources().getColor(R.color.DoorsTheme_black));
+            ((Activity)context).setTaskDescription(taskDescription);
             switch (colorAccent) {
                 case "yellow_gold":
                     context.setTheme(R.style.DoorsTheme_Dark_yellow_gold);
@@ -283,6 +290,9 @@ public class ThemeChooser extends AppCompatActivity {
                     break;
             }
         } else {
+            Bitmap bm = BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_launcher);
+            ActivityManager.TaskDescription taskDescription = new ActivityManager.TaskDescription(context.getString(R.string.app_name), bm, context.getResources().getColor(R.color.DoorsTheme_white));
+            ((Activity)context).setTaskDescription(taskDescription);
             switch (colorAccent) {
                 case "yellow_gold":
                     context.setTheme(R.style.DoorsTheme_Light_yellow_gold);

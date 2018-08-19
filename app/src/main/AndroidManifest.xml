@@ -11,8 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/DoorsTheme.Light">
         <activity
-            android:name=".SplashActivity"
-            android:theme="@style/DoorsTheme.Dark.NoActionBar">
+            android:name=".SplashScreen"
+            android:theme="@style/DoorsTheme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

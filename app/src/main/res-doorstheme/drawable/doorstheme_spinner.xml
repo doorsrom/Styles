@@ -16,5 +16,5 @@
         android:right="4dp"
         android:height="26dp"
         android:width="26dp"
-        android:drawable="@drawable/dropdown"/>
+        android:drawable="@drawable/doorstheme_dropdown"/>
 </layer-list>

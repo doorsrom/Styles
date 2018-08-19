@@ -11,7 +11,7 @@
                     </shape>
                 </inset>
             </item>
-            <item android:drawable="@drawable/ok"/>
+            <item android:drawable="@drawable/doorstheme_ok"/>
         </layer-list>
     </item>
     <item>
