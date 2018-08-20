@@ -21,7 +21,7 @@ class LinkButton extends AppCompatButton {
 
         final TypedArray array = context.obtainStyledAttributes( attrs,
                 R.styleable.LinkButton, defStyle,
-                R.style.Widget_AppCompat_Button ); // see below
+                R.style.Widget_AppCompat_Button );
         array.recycle();
     }
 }

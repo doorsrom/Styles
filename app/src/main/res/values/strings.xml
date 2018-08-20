@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Styles</string>
 
+    <string name="text">This app provides the general theme for Doors. It includes a test activity and the theme settings.</string>
+    <string name="test">Start test activity</string>
+    <string name="dialog">Start dialog</string>
+
     <string name="example">Example string</string>
     <string-array name="example_array">
         <item>Example array</item>

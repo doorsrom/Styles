@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <!-- colors -->
     <color name="DoorsTheme.yellow_gold">#FFB900</color>
     <color name="DoorsTheme.gold">#FF8C00</color>

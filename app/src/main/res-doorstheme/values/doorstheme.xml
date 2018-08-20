@@ -4,6 +4,9 @@
     <declare-styleable name="LinkButton">
         <attr name="linkButtonStyle" format="reference"/>
     </declare-styleable>
+    <declare-styleable name="DoorsImageButton">
+        <attr name="doorsImageButtonStyle" format="reference"/>
+    </declare-styleable>
     <attr name="innerColor" format="color"/>
     <attr name="frameColor" format="color"/>
     <attr name="elementColor" format="color"/>
@@ -81,6 +84,7 @@
         <item name="colorAccent">@color/DoorsTheme.colorAccent</item>
         <item name="buttonStyle">@style/DoorsTheme.Button</item>
         <item name="linkButtonStyle">@style/DoorsTheme.LinkButton</item>
+        <item name="doorsImageButtonStyle">@style/DoorsTheme.ImageButton</item>
         <item name="checkboxStyle">@style/DoorsTheme.CheckBox</item>
         <item name="radioButtonStyle">@style/DoorsTheme.RadioButton</item>
         <item name="spinnerStyle">@style/DoorsTheme.Spinner</item>
@@ -105,12 +109,21 @@
 
     <style name="DoorsTheme.DialogTheme.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="colorAccent">@color/DoorsTheme.colorAccent</item>
+        <item name="buttonStyle">@style/DoorsTheme.Button</item>
+        <item name="innerColor">@color/DoorsTheme.innerColorLight</item>
+        <item name="frameColor">@color/DoorsTheme.frameColorLight</item>
+        <item name="elementColor">@color/DoorsTheme.frameColorLight</item>
+        <item name="android:textColor">@color/DoorsTheme.textColorLight</item>
         <item name="android:textColorPrimary">@color/DoorsTheme.textColorLight</item>
         <item name="android:textColorAlertDialogListItem">@color/DoorsTheme.textColorLight</item>
-        <item name="android:windowBackground">@drawable/doorstheme_spinner_dropdown</item>
+        <item name="android:windowBackground">@drawable/doorstheme_dialog</item>
     </style>
 
     <style name="DoorsTheme.DialogTheme.Dark" parent="DoorsTheme.DialogTheme.Light">
+        <item name="innerColor">@color/DoorsTheme.innerColorDark</item>
+        <item name="frameColor">@color/DoorsTheme.frameColorDark</item>
+        <item name="elementColor">@color/DoorsTheme.frameColorDark</item>
+        <item name="android:textColor">@color/DoorsTheme.textColorDark</item>
         <item name="android:textColorPrimary">@color/DoorsTheme.textColorDark</item>
         <item name="android:textColorAlertDialogListItem">@color/DoorsTheme.textColorDark</item>
     </style>
@@ -129,6 +142,13 @@
         <item name="android:fontFamily">sans-serif light</item>
         <item name="android:textAlignment">viewStart</item>
         <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="DoorsTheme.ImageButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@null</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:tint">?android:attr/textColor</item>
     </style>
 
     <style name="DoorsTheme.CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
