@@ -14,18 +14,18 @@ public class ExampleDialog extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.example_dialog);
 
-        findViewById(R.id.yes).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.ok).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ExampleDialog.this, "User clicked yes!", Toast.LENGTH_LONG).show();
+                Toast.makeText(ExampleDialog.this, "User clicked ok!", Toast.LENGTH_LONG).show();
                 finish();
             }
         });
 
-        findViewById(R.id.no).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.cancel).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ExampleDialog.this, "User clicked no!", Toast.LENGTH_LONG).show();
+                Toast.makeText(ExampleDialog.this, "User clicked cancel!", Toast.LENGTH_LONG).show();
                 finish();
             }
         });

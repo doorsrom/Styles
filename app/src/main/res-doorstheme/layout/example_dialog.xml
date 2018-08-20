@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/example" />
+        android:text="@android:string/untitled" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,19 +20,19 @@
         android:layout_marginTop="25dp">
 
         <Button
-            android:id="@+id/yes"
+            android:id="@+id/ok"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginRight="2dp"
-            android:text="@android:string/yes" />
+            android:layout_marginEnd="2dp"
+            android:text="@android:string/ok" />
 
         <Button
-            android:id="@+id/no"
+            android:id="@+id/cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginLeft="2dp"
-            android:text="@android:string/no" />
+            android:layout_marginStart="2dp"
+            android:text="@android:string/cancel" />
     </LinearLayout>
 </LinearLayout>
