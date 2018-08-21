@@ -56,305 +56,155 @@
     <color name="DoorsTheme.camouflage_desert">#847545</color>
     <color name="DoorsTheme.camouflage">#7E735F</color>
 
-    <!-- light styles -->
-    <style name="DoorsTheme.Light.yellow_gold" parent="DoorsTheme.Light">
+    <!-- styles -->
+    <style name="DoorsTheme"/>
+    <style name="DoorsTheme.yellow_gold">
     <item name="colorAccent">@color/DoorsTheme.yellow_gold</item>
     </style>
-    <style name="DoorsTheme.Light.gold" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.gold">
         <item name="colorAccent">@color/DoorsTheme.gold</item>
     </style>
-    <style name="DoorsTheme.Light.orange_bright" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.orange_bright">
         <item name="colorAccent">@color/DoorsTheme.orange_bright</item>
     </style>
-    <style name="DoorsTheme.Light.orange_dark" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.orange_dark">
         <item name="colorAccent">@color/DoorsTheme.orange_dark</item>
     </style>
-    <style name="DoorsTheme.Light.rust" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.rust">
         <item name="colorAccent">@color/DoorsTheme.rust</item>
     </style>
-    <style name="DoorsTheme.Light.pale_rust" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.pale_rust">
         <item name="colorAccent">@color/DoorsTheme.pale_rust</item>
     </style>
-    <style name="DoorsTheme.Light.brick_red" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.brick_red">
         <item name="colorAccent">@color/DoorsTheme.brick_red</item>
     </style>
-    <style name="DoorsTheme.Light.mod_red" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.mod_red">
         <item name="colorAccent">@color/DoorsTheme.mod_red</item>
     </style>
 
-    <style name="DoorsTheme.Light.pale_red" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.pale_red">
         <item name="colorAccent">@color/DoorsTheme.pale_red</item>
     </style>
-    <style name="DoorsTheme.Light.red" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.red">
         <item name="colorAccent">@color/DoorsTheme.red</item>
     </style>
-    <style name="DoorsTheme.Light.rose_bright" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.rose_bright">
         <item name="colorAccent">@color/DoorsTheme.rose_bright</item>
     </style>
-    <style name="DoorsTheme.Light.rose" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.rose">
         <item name="colorAccent">@color/DoorsTheme.rose</item>
     </style>
-    <style name="DoorsTheme.Light.plum_light" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.plum_light">
         <item name="colorAccent">@color/DoorsTheme.plum_light</item>
     </style>
-    <style name="DoorsTheme.Light.plum" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.plum">
         <item name="colorAccent">@color/DoorsTheme.plum</item>
     </style>
-    <style name="DoorsTheme.Light.orchid_light" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.orchid_light">
         <item name="colorAccent">@color/DoorsTheme.orchid_light</item>
     </style>
-    <style name="DoorsTheme.Light.orchid" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.orchid">
         <item name="colorAccent">@color/DoorsTheme.orchid</item>
     </style>
 
-    <style name="DoorsTheme.Light.default_blue" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.default_blue">
         <item name="colorAccent">@color/DoorsTheme.default_blue</item>
     </style>
-    <style name="DoorsTheme.Light.navy_blue" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.navy_blue">
         <item name="colorAccent">@color/DoorsTheme.navy_blue</item>
     </style>
-    <style name="DoorsTheme.Light.purple_shadow" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.purple_shadow">
         <item name="colorAccent">@color/DoorsTheme.purple_shadow</item>
     </style>
-    <style name="DoorsTheme.Light.purple_shadow_dark" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.purple_shadow_dark">
         <item name="colorAccent">@color/DoorsTheme.purple_shadow_dark</item>
     </style>
-    <style name="DoorsTheme.Light.iris_pastel" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.iris_pastel">
         <item name="colorAccent">@color/DoorsTheme.iris_pastel</item>
     </style>
-    <style name="DoorsTheme.Light.iris_spring" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.iris_spring">
         <item name="colorAccent">@color/DoorsTheme.iris_spring</item>
     </style>
-    <style name="DoorsTheme.Light.violet_red_light" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.violet_red_light">
         <item name="colorAccent">@color/DoorsTheme.violet_red_light</item>
     </style>
-    <style name="DoorsTheme.Light.violet_red" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.violet_red">
         <item name="colorAccent">@color/DoorsTheme.violet_red</item>
     </style>
 
-    <style name="DoorsTheme.Light.cool_blue_bright" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.cool_blue_bright">
         <item name="colorAccent">@color/DoorsTheme.cool_blue_bright</item>
     </style>
-    <style name="DoorsTheme.Light.cool_blue" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.cool_blue">
         <item name="colorAccent">@color/DoorsTheme.cool_blue</item>
     </style>
-    <style name="DoorsTheme.Light.seafoam" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.seafoam">
         <item name="colorAccent">@color/DoorsTheme.seafoam</item>
     </style>
-    <style name="DoorsTheme.Light.seafoam_teal" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.seafoam_teal">
         <item name="colorAccent">@color/DoorsTheme.seafoam_teal</item>
     </style>
-    <style name="DoorsTheme.Light.mint_light" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.mint_light">
         <item name="colorAccent">@color/DoorsTheme.mint_light</item>
     </style>
-    <style name="DoorsTheme.Light.mint_dark" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.mint_dark">
         <item name="colorAccent">@color/DoorsTheme.mint_dark</item>
     </style>
-    <style name="DoorsTheme.Light.turf_green" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.turf_green">
         <item name="colorAccent">@color/DoorsTheme.turf_green</item>
     </style>
-    <style name="DoorsTheme.Light.sport_green" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.sport_green">
         <item name="colorAccent">@color/DoorsTheme.sport_green</item>
     </style>
 
-    <style name="DoorsTheme.Light.gray" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.gray">
         <item name="colorAccent">@color/DoorsTheme.gray</item>
     </style>
-    <style name="DoorsTheme.Light.gray_brown" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.gray_brown">
         <item name="colorAccent">@color/DoorsTheme.gray_brown</item>
     </style>
-    <style name="DoorsTheme.Light.steel_blue" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.steel_blue">
         <item name="colorAccent">@color/DoorsTheme.steel_blue</item>
     </style>
-    <style name="DoorsTheme.Light.metal_blue" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.metal_blue">
         <item name="colorAccent">@color/DoorsTheme.metal_blue</item>
     </style>
-    <style name="DoorsTheme.Light.pale_moss" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.pale_moss">
         <item name="colorAccent">@color/DoorsTheme.pale_moss</item>
     </style>
-    <style name="DoorsTheme.Light.moss" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.moss">
         <item name="colorAccent">@color/DoorsTheme.moss</item>
     </style>
-    <style name="DoorsTheme.Light.meadow_green" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.meadow_green">
         <item name="colorAccent">@color/DoorsTheme.meadow_green</item>
     </style>
-    <style name="DoorsTheme.Light.green" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.green">
         <item name="colorAccent">@color/DoorsTheme.green</item>
     </style>
 
-    <style name="DoorsTheme.Light.overcast" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.overcast">
         <item name="colorAccent">@color/DoorsTheme.overcast</item>
     </style>
-    <style name="DoorsTheme.Light.storm" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.storm">
         <item name="colorAccent">@color/DoorsTheme.storm</item>
     </style>
-    <style name="DoorsTheme.Light.blue_gray" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.blue_gray">
         <item name="colorAccent">@color/DoorsTheme.blue_gray</item>
     </style>
-    <style name="DoorsTheme.Light.gray_dark" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.gray_dark">
         <item name="colorAccent">@color/DoorsTheme.gray_dark</item>
     </style>
-    <style name="DoorsTheme.Light.liddy_green" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.liddy_green">
         <item name="colorAccent">@color/DoorsTheme.liddy_green</item>
     </style>
-    <style name="DoorsTheme.Light.sage" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.sage">
         <item name="colorAccent">@color/DoorsTheme.sage</item>
     </style>
-    <style name="DoorsTheme.Light.camouflage_desert" parent="DoorsTheme.Light">
+    <style name="DoorsTheme.camouflage_desert">
         <item name="colorAccent">@color/DoorsTheme.camouflage_desert</item>
     </style>
-    <style name="DoorsTheme.Light.camouflage" parent="DoorsTheme.Light">
-        <item name="colorAccent">@color/DoorsTheme.camouflage</item>
-    </style>
-
-    <!-- dark styles -->
-    <style name="DoorsTheme.Dark.yellow_gold" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.yellow_gold</item>
-    </style>
-    <style name="DoorsTheme.Dark.gold" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.gold</item>
-    </style>
-    <style name="DoorsTheme.Dark.orange_bright" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.orange_bright</item>
-    </style>
-    <style name="DoorsTheme.Dark.orange_dark" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.orange_dark</item>
-    </style>
-    <style name="DoorsTheme.Dark.rust" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.rust</item>
-    </style>
-    <style name="DoorsTheme.Dark.pale_rust" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.pale_rust</item>
-    </style>
-    <style name="DoorsTheme.Dark.brick_red" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.brick_red</item>
-    </style>
-    <style name="DoorsTheme.Dark.mod_red" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.mod_red</item>
-    </style>
-
-    <style name="DoorsTheme.Dark.pale_red" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.pale_red</item>
-    </style>
-    <style name="DoorsTheme.Dark.red" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.red</item>
-    </style>
-    <style name="DoorsTheme.Dark.rose_bright" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.rose_bright</item>
-    </style>
-    <style name="DoorsTheme.Dark.rose" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.rose</item>
-    </style>
-    <style name="DoorsTheme.Dark.plum_light" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.plum_light</item>
-    </style>
-    <style name="DoorsTheme.Dark.plum" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.plum</item>
-    </style>
-    <style name="DoorsTheme.Dark.orchid_light" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.orchid_light</item>
-    </style>
-    <style name="DoorsTheme.Dark.orchid" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.orchid</item>
-    </style>
-
-    <style name="DoorsTheme.Dark.default_blue" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.default_blue</item>
-    </style>
-    <style name="DoorsTheme.Dark.navy_blue" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.navy_blue</item>
-    </style>
-    <style name="DoorsTheme.Dark.purple_shadow" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.purple_shadow</item>
-    </style>
-    <style name="DoorsTheme.Dark.purple_shadow_dark" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.purple_shadow_dark</item>
-    </style>
-    <style name="DoorsTheme.Dark.iris_pastel" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.iris_pastel</item>
-    </style>
-    <style name="DoorsTheme.Dark.iris_spring" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.iris_spring</item>
-    </style>
-    <style name="DoorsTheme.Dark.violet_red_light" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.violet_red_light</item>
-    </style>
-    <style name="DoorsTheme.Dark.violet_red" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.violet_red</item>
-    </style>
-
-    <style name="DoorsTheme.Dark.cool_blue_bright" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.cool_blue_bright</item>
-    </style>
-    <style name="DoorsTheme.Dark.cool_blue" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.cool_blue</item>
-    </style>
-    <style name="DoorsTheme.Dark.seafoam" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.seafoam</item>
-    </style>
-    <style name="DoorsTheme.Dark.seafoam_teal" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.seafoam_teal</item>
-    </style>
-    <style name="DoorsTheme.Dark.mint_light" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.mint_light</item>
-    </style>
-    <style name="DoorsTheme.Dark.mint_dark" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.mint_dark</item>
-    </style>
-    <style name="DoorsTheme.Dark.turf_green" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.turf_green</item>
-    </style>
-    <style name="DoorsTheme.Dark.sport_green" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.sport_green</item>
-    </style>
-
-    <style name="DoorsTheme.Dark.gray" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.gray</item>
-    </style>
-    <style name="DoorsTheme.Dark.gray_brown" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.gray_brown</item>
-    </style>
-    <style name="DoorsTheme.Dark.steel_blue" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.steel_blue</item>
-    </style>
-    <style name="DoorsTheme.Dark.metal_blue" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.metal_blue</item>
-    </style>
-    <style name="DoorsTheme.Dark.pale_moss" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.pale_moss</item>
-    </style>
-    <style name="DoorsTheme.Dark.moss" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.moss</item>
-    </style>
-    <style name="DoorsTheme.Dark.meadow_green" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.meadow_green</item>
-    </style>
-    <style name="DoorsTheme.Dark.green" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.green</item>
-    </style>
-
-    <style name="DoorsTheme.Dark.overcast" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.overcast</item>
-    </style>
-    <style name="DoorsTheme.Dark.storm" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.storm</item>
-    </style>
-    <style name="DoorsTheme.Dark.blue_gray" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.blue_gray</item>
-    </style>
-    <style name="DoorsTheme.Dark.gray_dark" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.gray_dark</item>
-    </style>
-    <style name="DoorsTheme.Dark.liddy_green" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.liddy_green</item>
-    </style>
-    <style name="DoorsTheme.Dark.sage" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.sage</item>
-    </style>
-    <style name="DoorsTheme.Dark.camouflage_desert" parent="DoorsTheme.Dark">
-        <item name="colorAccent">@color/DoorsTheme.camouflage_desert</item>
-    </style>
-    <style name="DoorsTheme.Dark.camouflage" parent="DoorsTheme.Dark">
+    <style name="DoorsTheme.camouflage">
         <item name="colorAccent">@color/DoorsTheme.camouflage</item>
     </style>
 
