@@ -9,6 +9,7 @@
     </declare-styleable>
     <attr name="innerColor" format="color"/>
     <attr name="frameColor" format="color"/>
+    <attr name="secondFrameColor" format="color"/>
     <attr name="elementColor" format="color"/>
 
     <!-- colors -->
@@ -22,6 +23,7 @@
     <color name="DoorsTheme.textColorSecondaryDark">#80ffffff</color>
     <color name="DoorsTheme.innerColorDark">#2B2B2B</color>
     <color name="DoorsTheme.frameColorDark">#767676</color>
+    <color name="DoorsTheme.secondFrameColorDark">#858585</color>
 
     <color name="DoorsTheme.colorPrimaryLight">#F2F2F2</color>
     <color name="DoorsTheme.windowBackgroundLight">@color/DoorsTheme.white</color>
@@ -29,6 +31,7 @@
     <color name="DoorsTheme.textColorSecondaryLight">#80000000</color>
     <color name="DoorsTheme.innerColorLight">@color/DoorsTheme.colorPrimaryLight</color>
     <color name="DoorsTheme.frameColorLight">#CCCCCC</color>
+    <color name="DoorsTheme.secondFrameColorLight">#7A7A7A</color>
 
     <!-- styles -->
     <style name="DoorsTheme.Splash" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -60,6 +63,7 @@
         <item name="android:textColorSecondary">@color/DoorsTheme.textColorSecondaryLight</item>
         <item name="innerColor">@color/DoorsTheme.innerColorLight</item>
         <item name="frameColor">@color/DoorsTheme.frameColorLight</item>
+        <item name="secondFrameColor">@color/DoorsTheme.secondFrameColorLight</item>
         <item name="elementColor">@color/DoorsTheme.frameColorLight</item>
         <item name="android:alertDialogTheme">@style/DoorsTheme.Light.DialogTheme</item>
     </style>
@@ -74,6 +78,7 @@
         <item name="android:textColorSecondary">@color/DoorsTheme.textColorSecondaryDark</item>
         <item name="innerColor">@color/DoorsTheme.innerColorDark</item>
         <item name="frameColor">@color/DoorsTheme.frameColorDark</item>
+        <item name="secondFrameColor">@color/DoorsTheme.secondFrameColorLight</item>
         <item name="elementColor">@color/DoorsTheme.innerColorDark</item>
         <item name="android:alertDialogTheme">@style/DoorsTheme.Dark.DialogTheme</item>
     </style>
@@ -101,6 +106,7 @@
 
     <style name="DoorsTheme.ActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textColor">?android:attr/textColor</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="DoorsTheme.ActionBarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
@@ -152,11 +158,13 @@
     </style>
 
     <style name="DoorsTheme.CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:background">@null</item>
         <item name="android:button">@drawable/doorstheme_checkbox</item>
         <item name="android:textColor">?android:attr/textColor</item>
     </style>
 
     <style name="DoorsTheme.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:background">@null</item>
         <item name="android:button">@drawable/doorstheme_radiobutton</item>
         <item name="android:textColor">?android:attr/textColor</item>
     </style>
@@ -175,6 +183,7 @@
     </style>
 
     <style name="DoorsTheme.Switch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:background">@null</item>
         <item name="android:switchMinWidth">64dp</item>
         <item name="android:track">@drawable/doorstheme_switch_track</item>
         <item name="android:thumb">@drawable/doorstheme_switch_thumb</item>
