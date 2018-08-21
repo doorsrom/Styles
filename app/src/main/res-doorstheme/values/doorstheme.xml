@@ -61,7 +61,7 @@
         <item name="innerColor">@color/DoorsTheme.innerColorLight</item>
         <item name="frameColor">@color/DoorsTheme.frameColorLight</item>
         <item name="elementColor">@color/DoorsTheme.frameColorLight</item>
-        <item name="android:alertDialogTheme">@style/DoorsTheme.DialogTheme.Light</item>
+        <item name="android:alertDialogTheme">@style/DoorsTheme.Light.DialogTheme</item>
     </style>
 
     <style name="DoorsTheme.Dark" parent="DoorsTheme.UNUSABLE">
@@ -75,7 +75,7 @@
         <item name="innerColor">@color/DoorsTheme.innerColorDark</item>
         <item name="frameColor">@color/DoorsTheme.frameColorDark</item>
         <item name="elementColor">@color/DoorsTheme.innerColorDark</item>
-        <item name="android:alertDialogTheme">@style/DoorsTheme.DialogTheme.Dark</item>
+        <item name="android:alertDialogTheme">@style/DoorsTheme.Dark.DialogTheme</item>
     </style>
 
     <style name="DoorsTheme.UNUSABLE" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -107,7 +107,7 @@
         <item name="colorControlNormal">?android:attr/textColor</item>
     </style>
 
-    <style name="DoorsTheme.DialogTheme.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <style name="DoorsTheme.Light.DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="colorAccent">@color/DoorsTheme.colorAccent</item>
         <item name="buttonStyle">@style/DoorsTheme.Button</item>
         <item name="innerColor">@color/DoorsTheme.innerColorLight</item>
@@ -119,7 +119,7 @@
         <item name="android:windowBackground">@drawable/doorstheme_dialog</item>
     </style>
 
-    <style name="DoorsTheme.DialogTheme.Dark" parent="DoorsTheme.DialogTheme.Light">
+    <style name="DoorsTheme.Dark.DialogTheme" parent="DoorsTheme.Light.DialogTheme">
         <item name="innerColor">@color/DoorsTheme.innerColorDark</item>
         <item name="frameColor">@color/DoorsTheme.frameColorDark</item>
         <item name="elementColor">@color/DoorsTheme.frameColorDark</item>

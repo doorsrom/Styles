@@ -20,7 +20,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".TestActivity" />
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/test"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.doors.styles.MainActivity" />
+        </activity>
         <activity
             android:name=".Preferences"
             android:label="@string/pref"
@@ -40,7 +47,7 @@
         <activity
             android:name=".ExampleDialog"
             android:label="@string/example"
-            android:theme="@style/DoorsTheme.DialogTheme.Light"/>
+            android:theme="@style/DoorsTheme.Light.DialogTheme"/>
     </application>
 
 </manifest>
