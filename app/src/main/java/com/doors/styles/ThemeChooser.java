@@ -1,12 +1,16 @@
 package com.doors.styles;
 
+import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.RadioButton;
+
+import java.io.File;
 
 public class ThemeChooser extends AppCompatActivity {
 
@@ -21,12 +25,11 @@ public class ThemeChooser extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_theme_chooser);
 
-        checkPref();
-
+        prefs = getSharedPreferences("theme", Context.MODE_PRIVATE);
         btnDark = findViewById(R.id.dark);
         btnLight = findViewById(R.id.light);
 
-        prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        checkPref();
 
         btnDark.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +47,7 @@ public class ThemeChooser extends AppCompatActivity {
                 overridePendingTransition(0, 0);
             }
         });
+
         squareClick(R.id.yellow_gold, "yellow_gold");
         squareClick(R.id.gold, "gold");
         squareClick(R.id.orange_bright, "orange_bright");
@@ -116,7 +120,6 @@ public class ThemeChooser extends AppCompatActivity {
     }
 
     private void checkPref(){
-        prefs = PreferenceManager.getDefaultSharedPreferences(this);
         Boolean darkMode = prefs.getBoolean("dark_mode", false);
         btnDark = findViewById(R.id.dark);
         btnLight = findViewById(R.id.light);
@@ -125,5 +128,31 @@ public class ThemeChooser extends AppCompatActivity {
         } else {
             btnLight.toggle();
         }
+    }
+
+    @SuppressLint("SetWorldReadable")
+    private void grantRead(){
+        String dataDir = this.getApplicationInfo().dataDir;
+        String prefFile = "/shared_prefs/theme.xml";
+
+        File f = new File(dataDir + prefFile);
+        if (f.exists()) {
+            if(!f.setReadable(true, false)){
+                Log.e("DoorsThemeError", "Operation one failed!");
+            }
+        }
+
+        f = new File(dataDir);
+        if (f.exists() && f.isDirectory()) {
+            if(!f.setReadable(true, false) || ! f.setExecutable(true, false)){
+                Log.e("DoorsThemeError", "Operation two failed!");
+            }
+        }
+    }
+
+    @Override
+    protected void onStop(){
+        super.onStop();
+        grantRead();
     }
 }

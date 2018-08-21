@@ -3,19 +3,32 @@ package com.doors.styles;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.graphics.BitmapFactory;
-import android.preference.PreferenceManager;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
 
 @SuppressWarnings("ALL")
 public class DoorsTheme {
 
+    private static SharedPreferences getPref(Context context) {
+        SharedPreferences pref = context.getSharedPreferences("theme", Context.MODE_PRIVATE);
+        try {
+            context = context.createPackageContext("com.doors.styles", 0);
+            pref = context.getSharedPreferences(
+                    "theme", Context.MODE_PRIVATE);
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.i("DoorsTheme", "Application package com.doors.styles not found. Using preferences from this application package instead.");
+        }
+        return pref;
+    }
     public static boolean isDarkMode(Context context){
-        return PreferenceManager.getDefaultSharedPreferences(context).getBoolean("dark_mode", false);
+        return getPref(context).getBoolean("dark_mode", false);
     }
 
     public static String getColorAccent(Context context){
-        return PreferenceManager.getDefaultSharedPreferences(context).getString("color_accent", "default_blue");
+        return getPref(context).getString("color_accent", "default_blue");
     }
 
     public static void checkTheme(Context context) {
@@ -27,6 +40,7 @@ public class DoorsTheme {
             recent(context, R.color.DoorsTheme_white);
         }
         setColor(context);
+        Log.i("DoorsTheme", "Applied theme with color accent " + getColorAccent(context) + " and dark mode set to " + isDarkMode(context));
     }
 
     public static void checkDialogTheme(Context context) {
@@ -38,6 +52,7 @@ public class DoorsTheme {
             recent(context, R.color.DoorsTheme_white);
         }
         setColor(context);
+        Log.i("DoorsTheme", "Applied theme with color accent " + getColorAccent(context) + " and dark mode set to " + isDarkMode(context));
     }
 
     public static void checkNoActionBarTheme(Context context) {
@@ -49,6 +64,7 @@ public class DoorsTheme {
             recent(context, R.color.DoorsTheme_white);
         }
         setColor(context);
+        Log.i("DoorsTheme", "Applied theme with color accent " + getColorAccent(context) + " and dark mode set to " + isDarkMode(context));
     }
 
     private static void recent(Context context, int color){
