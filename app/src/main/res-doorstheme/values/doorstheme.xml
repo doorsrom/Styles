@@ -118,7 +118,7 @@
         <item name="buttonStyle">@style/DoorsTheme.Button</item>
         <item name="innerColor">@color/DoorsTheme.innerColorLight</item>
         <item name="frameColor">@color/DoorsTheme.frameColorLight</item>
-        <item name="secondFrameColor">@color/DoorsTheme.frameColorLight</item>
+        <item name="secondFrameColor">@color/DoorsTheme.secondFrameColorLight</item>
         <item name="elementColor">@color/DoorsTheme.frameColorLight</item>
         <item name="android:textColor">@color/DoorsTheme.textColorLight</item>
         <item name="android:textColorPrimary">@color/DoorsTheme.textColorLight</item>

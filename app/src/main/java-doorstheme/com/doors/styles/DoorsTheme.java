@@ -8,27 +8,37 @@ import android.content.pm.PackageManager;
 import android.graphics.BitmapFactory;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
+import android.widget.Toast;
+
+import java.io.File;
 
 @SuppressWarnings("ALL")
 public class DoorsTheme {
 
-    private static SharedPreferences getPref(Context context) {
-        SharedPreferences pref = context.getSharedPreferences("theme", Context.MODE_PRIVATE);
+    private static SharedPreferences getPrefs(Context context) {
+        SharedPreferences prefs = context.getSharedPreferences("theme", Context.MODE_PRIVATE);
         try {
             context = context.createPackageContext("com.doors.styles", 0);
-            pref = context.getSharedPreferences(
+            prefs = context.getSharedPreferences(
                     "theme", Context.MODE_PRIVATE);
+            File prefsFile = new File(context.getApplicationInfo().dataDir + "/shared_prefs/theme.xml");
+            if (prefsFile.exists() && !prefsFile.canRead()) {
+                Log.e("DoorsTheme", "No permission to read theme settings! Please contact the developer!");
+                Toast.makeText
+                        (context, "No permission to read theme settings! Please contact the developer!", Toast.LENGTH_LONG).show();
+            }
         } catch (PackageManager.NameNotFoundException e) {
             Log.i("DoorsTheme", "Application package com.doors.styles not found. Using preferences from this application package instead.");
         }
-        return pref;
+        return prefs;
     }
+
     public static boolean isDarkMode(Context context){
-        return getPref(context).getBoolean("dark_mode", false);
+        return getPrefs(context).getBoolean("dark_mode", false);
     }
 
     public static String getColorAccent(Context context){
-        return getPref(context).getString("color_accent", "default_blue");
+        return getPrefs(context).getString("color_accent", "default_blue");
     }
 
     public static void checkTheme(Context context) {

@@ -138,14 +138,14 @@ public class ThemeChooser extends AppCompatActivity {
         File f = new File(dataDir + prefFile);
         if (f.exists()) {
             if(!f.setReadable(true, false)){
-                Log.e("DoorsThemeError", "Operation one failed!");
+                Log.e("DoorsThemeError", "Setting MODE_WORLD_READABLE failed");
             }
         }
 
         f = new File(dataDir);
         if (f.exists() && f.isDirectory()) {
             if(!f.setReadable(true, false) || ! f.setExecutable(true, false)){
-                Log.e("DoorsThemeError", "Operation two failed!");
+                Log.e("DoorsThemeError", "Setting MODE_WORLD_READABLE failed");
             }
         }
     }

@@ -1,6 +1,8 @@
 package com.doors.styles;
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -8,7 +10,9 @@ import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.support.v7.app.ActionBar;
-import android.view.MenuItem;
+import android.util.Log;
+
+import java.io.File;
 
 public class Preferences extends AppCompatPreferenceActivity {
 
@@ -17,8 +21,8 @@ public class Preferences extends AppCompatPreferenceActivity {
                 @Override
                 public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
                                                       String key) {
-                    finish();
                     startActivity(new Intent(Preferences.this, MainActivity.class));
+                    finish();
                 }
             };
 
@@ -30,7 +34,7 @@ public class Preferences extends AppCompatPreferenceActivity {
         getFragmentManager().beginTransaction()
                 .replace(android.R.id.content, new GeneralPreferenceFragment())
                 .commit();
-        PreferenceManager.getDefaultSharedPreferences(this).registerOnSharedPreferenceChangeListener(spChanged);
+        getSharedPreferences("theme", Context.MODE_PRIVATE).registerOnSharedPreferenceChangeListener(spChanged);
     }
 
     private void setupActionBar() {
@@ -45,18 +49,36 @@ public class Preferences extends AppCompatPreferenceActivity {
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            addPreferencesFromResource(R.xml.pref_general);
-            setHasOptionsMenu(true);
+            PreferenceManager prefMngr = getPreferenceManager();
+            prefMngr.setSharedPreferencesName("theme");
+            prefMngr.setSharedPreferencesMode(MODE_PRIVATE);
+            addPreferencesFromResource(R.xml.pref_theme);
+        }
+    }
+
+    @SuppressLint("SetWorldReadable")
+    private void grantRead(){
+        String dataDir = this.getApplicationInfo().dataDir;
+        String prefFile = "/shared_prefs/theme.xml";
+
+        File f = new File(dataDir + prefFile);
+        if (f.exists()) {
+            if(!f.setReadable(true, false)){
+                Log.e("DoorsThemeError", "Setting MODE_WORLD_READABLE failed");
+            }
         }
 
-        @Override
-        public boolean onOptionsItemSelected(MenuItem item) {
-            int id = item.getItemId();
-            if (id == android.R.id.home) {
-                startActivity(new Intent(getActivity(), Preferences.class));
-                return true;
+        f = new File(dataDir);
+        if (f.exists() && f.isDirectory()) {
+            if(!f.setReadable(true, false) || ! f.setExecutable(true, false)){
+                Log.e("DoorsThemeError", "Setting MODE_WORLD_READABLE failed");
             }
-            return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    protected void onStop(){
+        super.onStop();
+        grantRead();
     }
 }
