@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.doors.styles.MainActivity">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -57,6 +58,10 @@
                 android:max="10"
                 android:progress="3" />
 
+            <com.doors.styles.PlaybackBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
             <Switch
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -70,12 +75,10 @@
                 android:text="@string/example" />
 
             <TimePicker
-                android:id="@+id/timePicker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <DatePicker
-                android:id="@+id/datePicker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp" />
