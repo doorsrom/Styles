@@ -108,6 +108,8 @@
         <item name="seekBarStyle">@style/DoorsTheme.SeekBar</item>
         <item name="android:switchStyle">@style/DoorsTheme.Switch</item>
         <item name="editTextStyle">@style/DoorsTheme.EditText</item>
+        <item name="android:timePickerStyle">@style/DoorsTheme.TimePicker</item>
+        <item name="android:datePickerStyle">@style/DoorsTheme.DatePicker</item>
         <item name="android:textCursorDrawable">@null</item>
     </style>
 
@@ -236,6 +238,17 @@
     <style name="DoorsTheme.EditText" parent="Widget.AppCompat.EditText">
         <item name="android:background">@drawable/doorstheme_edittext</item>
         <item name="android:textColor">@color/doorstheme_edittext</item>
+    </style>
+
+    <style name="DoorsTheme.TimePicker" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:background">@drawable/doorstheme_picker</item>
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+
+    <style name="DoorsTheme.DatePicker" parent="@android:style/Widget.Holo.DatePicker">
+        <item name="android:background">@drawable/doorstheme_picker</item>
+        <item name="android:timePickerMode">spinner</item>
+        <item name="android:calendarViewShown">false</item>
     </style>
 
 </resources>
