@@ -162,6 +162,7 @@
         <item name="android:drawableStart">@drawable/doorstheme_ic_menu</item>
         <item name="android:textColor">?android:attr/textColor</item>
         <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="DoorsTheme.FirstMenuItem" parent="TextAppearance.AppCompat.Small">
