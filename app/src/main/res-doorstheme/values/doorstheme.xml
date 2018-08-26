@@ -1,6 +1,15 @@
 <resources>
 
     <!-- attr -->
+    <declare-styleable name="MenuAppBar">
+        <attr name="menuAppBarStyle" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="FirstMenuItem">
+        <attr name="firstMenuItemStyle" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="MenuItem">
+        <attr name="menuItemStyle" format="reference"/>
+    </declare-styleable>
     <declare-styleable name="LinkButton">
         <attr name="linkButtonStyle" format="reference"/>
     </declare-styleable>
@@ -87,6 +96,9 @@
         <item name="actionBarStyle">@style/DoorsTheme.ActionBar</item>
         <item name="actionBarTheme">@style/DoorsTheme.ActionBarTheme</item>
         <item name="colorAccent">@color/DoorsTheme.colorAccent</item>
+        <item name="menuAppBarStyle">@style/DoorsTheme.MenuAppBar</item>
+        <item name="firstMenuItemStyle">@style/DoorsTheme.FirstMenuItem</item>
+        <item name="menuItemStyle">@style/DoorsTheme.MenuItem</item>
         <item name="buttonStyle">@style/DoorsTheme.Button</item>
         <item name="linkButtonStyle">@style/DoorsTheme.LinkButton</item>
         <item name="doorsImageButtonStyle">@style/DoorsTheme.ImageButton</item>
@@ -134,6 +146,34 @@
         <item name="android:textColor">@color/DoorsTheme.textColorDark</item>
         <item name="android:textColorPrimary">@color/DoorsTheme.textColorDark</item>
         <item name="android:textColorAlertDialogListItem">@color/DoorsTheme.textColorDark</item>
+    </style>
+
+    <style name="DoorsTheme.MenuAppBar" parent="TextAppearance.AppCompat.Small">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:drawablePadding">14dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:drawableStart">@drawable/doorstheme_ic_menu</item>
+        <item name="android:textColor">?android:attr/textColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="DoorsTheme.FirstMenuItem" parent="TextAppearance.AppCompat.Small">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:drawablePadding">14dp</item>
+        <item name="android:drawableStart">@drawable/doorstheme_ic_menu</item>
+        <item name="android:textColor">?android:attr/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="DoorsTheme.MenuItem" parent="TextAppearance.AppCompat.Small">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">50dp</item>
+        <item name="android:textColor">?android:attr/textColor</item>
     </style>
 
     <style name="DoorsTheme.Button" parent="Widget.AppCompat.Button">

@@ -19,5 +19,11 @@ public class TestActivity extends AppCompatActivity {
                 startActivity(new Intent(TestActivity.this, ExampleDialog.class));
             }
         });
+        findViewById(R.id.hamburger).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TestActivity.this, ExampleHamburger.class));
+            }
+        });
     }
 }

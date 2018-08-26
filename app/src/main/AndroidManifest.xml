@@ -48,6 +48,10 @@
             android:name=".ExampleDialog"
             android:label="@string/example"
             android:theme="@style/DoorsTheme.Light.DialogTheme"/>
+        <activity
+            android:name=".ExampleHamburger"
+            android:label="@string/example"
+            android:theme="@style/DoorsTheme.Light.NoActionBar"/>
     </application>
 
 </manifest>
