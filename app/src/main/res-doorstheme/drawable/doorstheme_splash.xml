@@ -3,7 +3,7 @@
     android:opacity="opaque">
     <item android:drawable="@color/DoorsTheme.black"/>
     <item
-        android:drawable="@mipmap/ic_launcher_foreground"
+        android:drawable="@drawable/DoorsTheme.splash_icon"
         android:gravity="center"
         android:width="192dp"
         android:height="192dp"/>

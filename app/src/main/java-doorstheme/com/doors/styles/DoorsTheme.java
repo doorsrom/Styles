@@ -79,8 +79,8 @@ public class DoorsTheme {
 
     private static void recent(Context context, int color){
         ActivityManager.TaskDescription taskDescription = new ActivityManager.TaskDescription(
-                context.getString(R.string.app_name),
-                BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_launcher),
+                context.getString(R.string.DoorsTheme_recents_name),
+                BitmapFactory.decodeResource(context.getResources(), R.drawable.DoorsTheme_recents_icon),
                 ContextCompat.getColor(context, color)
         );
         ((Activity)context).setTaskDescription(taskDescription);
