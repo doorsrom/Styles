@@ -43,16 +43,19 @@ public class ExampleHamburger extends AppCompatActivity
         return true;
     }
 
-    public void openNavBar(@SuppressWarnings("unused") final View v) {
+    @SuppressWarnings("unused")
+    public void openNavBar(final View v) {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.openDrawer(Gravity.START);
     }
 
-    public void closeNavBar(@SuppressWarnings("unused") final View v) {
+    @SuppressWarnings("unused")
+    public void closeNavBar(final View v) {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(Gravity.START);
     }
 
+    @SuppressWarnings("unused")
     public void menuClick(final View v){
         switch (v.getId()){
             case R.id.one:

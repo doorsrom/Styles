@@ -14,9 +14,6 @@ import java.io.File;
 
 public class ThemeChooser extends AppCompatActivity {
 
-    private RadioButton btnDark;
-    private RadioButton btnLight;
-
     private SharedPreferences prefs;
 
     @Override
@@ -25,12 +22,19 @@ public class ThemeChooser extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_theme_chooser);
 
+        //Variables
         prefs = getSharedPreferences("theme", Context.MODE_PRIVATE);
-        btnDark = findViewById(R.id.dark);
-        btnLight = findViewById(R.id.light);
+        RadioButton btnDark = findViewById(R.id.dark);
+        RadioButton btnLight = findViewById(R.id.light);
 
-        checkPref();
+        //Check prefs
+        if (prefs.getBoolean("dark_mode", false)){
+            btnDark.toggle();
+        } else {
+            btnLight.toggle();
+        }
 
+        //Clicks
         btnDark.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -117,17 +121,6 @@ public class ThemeChooser extends AppCompatActivity {
                 overridePendingTransition(0, 0);
             }
         });
-    }
-
-    private void checkPref(){
-        Boolean darkMode = prefs.getBoolean("dark_mode", false);
-        btnDark = findViewById(R.id.dark);
-        btnLight = findViewById(R.id.light);
-        if (darkMode){
-            btnDark.toggle();
-        } else {
-            btnLight.toggle();
-        }
     }
 
     @SuppressLint("SetWorldReadable")

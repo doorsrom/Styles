@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import java.io.File;
 
-//@SuppressWarnings("ALL")
+@SuppressWarnings("ALL")
 public class DoorsTheme {
 
     private static int selectedTheme = 0;
