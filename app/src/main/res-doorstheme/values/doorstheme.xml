@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- attr -->
     <declare-styleable name="MenuAppBar">
@@ -73,6 +73,8 @@
         <item name="android:textColor">@color/DoorsTheme.textColorLight</item>
         <item name="android:textColorPrimary">@color/DoorsTheme.textColorLight</item>
         <item name="android:textColorSecondary">@color/DoorsTheme.textColorSecondaryLight</item>
+        <item name="android:navigationBarColor">@color/DoorsTheme.colorPrimaryLight</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
         <item name="innerColor">@color/DoorsTheme.innerColorLight</item>
         <item name="frameColor">@color/DoorsTheme.frameColorLight</item>
         <item name="secondFrameColor">@color/DoorsTheme.secondFrameColorLight</item>
@@ -88,6 +90,8 @@
         <item name="android:textColor">@color/DoorsTheme.textColorDark</item>
         <item name="android:textColorPrimary">@color/DoorsTheme.textColorDark</item>
         <item name="android:textColorSecondary">@color/DoorsTheme.textColorSecondaryDark</item>
+        <item name="android:navigationBarColor">@color/DoorsTheme.colorPrimaryDark</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
         <item name="innerColor">@color/DoorsTheme.innerColorDark</item>
         <item name="frameColor">@color/DoorsTheme.frameColorDark</item>
         <item name="secondFrameColor">@color/DoorsTheme.secondFrameColorDark</item>
