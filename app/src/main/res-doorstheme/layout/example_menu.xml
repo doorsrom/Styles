@@ -5,27 +5,27 @@
     android:paddingTop="24dp"
     android:orientation="vertical">
 
-    <com.doors.styles.FirstMenuItem
+    <project.doors.theme.FirstMenuItem
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="closeNavBar"
         android:text="@android:string/untitled" />
 
-    <com.doors.styles.MenuItem
+    <project.doors.theme.MenuItem
         android:id="@+id/one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="menuClick"
         android:text="@android:string/untitled" />
 
-    <com.doors.styles.MenuItem
+    <project.doors.theme.MenuItem
         android:id="@+id/two"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="menuClick"
         android:text="@android:string/untitled" />
 
-    <com.doors.styles.MenuItem
+    <project.doors.theme.MenuItem
         android:id="@+id/three"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

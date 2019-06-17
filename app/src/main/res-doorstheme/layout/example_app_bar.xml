@@ -11,7 +11,7 @@
         android:layout_height="?attr/actionBarSize"
         android:theme="?attr/actionBarStyle">
 
-        <com.doors.styles.MenuAppBar
+        <project.doors.theme.MenuAppBar
             android:id="@+id/label"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

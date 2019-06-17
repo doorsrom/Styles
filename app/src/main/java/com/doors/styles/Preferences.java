@@ -14,6 +14,8 @@ import android.util.Log;
 
 import java.io.File;
 
+import project.doors.theme.DoorsTheme;
+
 public class Preferences extends AppCompatPreferenceActivity {
 
     private final SharedPreferences.OnSharedPreferenceChangeListener spChanged = new

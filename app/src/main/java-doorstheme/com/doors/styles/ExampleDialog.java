@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import project.doors.theme.DoorsTheme;
+
 public class ExampleDialog extends AppCompatActivity {
 
     @Override

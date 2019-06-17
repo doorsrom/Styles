@@ -12,6 +12,8 @@ import android.widget.RadioButton;
 
 import java.io.File;
 
+import project.doors.theme.DoorsTheme;
+
 public class ThemeChooser extends AppCompatActivity {
 
     private SharedPreferences prefs;

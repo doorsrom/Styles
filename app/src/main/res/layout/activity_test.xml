@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/example" />
 
-            <com.doors.styles.LinkButton
+            <project.doors.theme.LinkButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/example" />
@@ -58,7 +58,7 @@
                 android:max="10"
                 android:progress="3" />
 
-            <com.doors.styles.PlaybackBar
+            <project.doors.theme.PlaybackBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 

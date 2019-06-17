@@ -13,6 +13,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import project.doors.theme.DoorsTheme;
+
 public class ExampleHamburger extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 

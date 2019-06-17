@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 
+import project.doors.theme.DoorsTheme;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

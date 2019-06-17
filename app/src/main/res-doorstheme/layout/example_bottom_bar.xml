@@ -8,17 +8,17 @@
     android:background="?attr/colorPrimary"
     tools:ignore="Overdraw">
 
-        <com.doors.styles.DoorsImageButton
+        <project.doors.theme.DoorsImageButton
             android:layout_width="64dp"
             android:layout_height="64dp"
             app:srcCompat="@drawable/doorstheme_ok" />
 
-        <com.doors.styles.DoorsImageButton
+        <project.doors.theme.DoorsImageButton
             android:layout_width="64dp"
             android:layout_height="64dp"
             app:srcCompat="@drawable/doorstheme_ok" />
 
-        <com.doors.styles.DoorsImageButton
+        <project.doors.theme.DoorsImageButton
             android:layout_width="64dp"
             android:layout_height="64dp"
             app:srcCompat="@drawable/doorstheme_ok" />
