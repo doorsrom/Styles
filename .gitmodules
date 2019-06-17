@@ -1,3 +1,4 @@
 [submodule "design"]
 	path = design
 	url = https://github.com/doorsrom/design
+	branch = master
